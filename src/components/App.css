@@ -1,0 +1,28 @@
+.App {
+  margin: 1.2em;
+}
+
+#date {
+  color: rgb(95, 122, 91);
+}
+.listBlock {
+  margin:10px;
+  display: block;
+  line-height: 2em;
+  font-weight: bold;
+}
+label{
+  cursor: pointer;
+}
+
+.reset {
+  border:none;
+  border-radius: 5px;
+  background-color: rgb(27, 126, 172);
+  padding: 8px;
+  margin: 2%;
+  font-size:1.1em;
+  cursor: pointer;
+  color: aliceblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
