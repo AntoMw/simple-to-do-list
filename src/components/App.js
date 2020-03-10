@@ -2,10 +2,7 @@ import React from 'react';
 import "./Header";
 import './App.css';
 import Header from './Header';
-import ToDoItem1 from "./ToDoItem1";
-import ToDoItem2 from "./ToDoItem2";
-import ToDoItem3 from "./ToDoItem3";
-import ToDoItem4 from "./ToDoItem4";
+import ListItem from "./ListItem";
 
 function App() {
 
@@ -32,23 +29,21 @@ function App() {
     
  }
 
-    return(
+return(
     <article className="App">
       <Header />
       <i style={styles}>March 9th 2020</i>
-    <div className="listBlock">  
-      <ToDoItem1 />
-      <ToDoItem2 />
-      <ToDoItem3 />
-      <ToDoItem4 />
+    <div  className="listBlock">  
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
     </div> 
 
     <button class="reset">Start Over</button> 
-
-<small>edited {`${timeOfTheDay}`}</small>
-
+    <small>edited {`${timeOfTheDay}`}</small>
     </article>
-    )
+ )
 };
 
 export default App;
