@@ -21,9 +21,11 @@ function App() {
   }
   else if (hours>12&&hours<17){
     timeOfTheDay="in the afternoon...";
+    styles.color="red";
   }
   else{
     timeOfTheDay="in the evening...";
+    
  }
 
     return(<article className="App">
